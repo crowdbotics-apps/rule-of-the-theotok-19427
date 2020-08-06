@@ -25,7 +25,11 @@ export class _Blank extends React.Component {
   state = {}
 
   render = () => (
-    <View
+    <ImageBackground
+      source={{
+        uri:
+          "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/IC__XC_NI_KA_7uYtSrF.jpg"
+      }}
       style={{
         width: "100%",
         height: "100%",
@@ -75,7 +79,7 @@ export class _Blank extends React.Component {
           verticalAlign: "middle",
           fontSize: 22,
           color: "#fd0808",
-          backgroundColor: "#ffffff",
+          backgroundColor: "#f2d9d9",
           fontFamily: "Merriweather-Bold",
           borderColor: "#fb0404",
           borderStyle: "solid",
@@ -108,7 +112,7 @@ export class _Blank extends React.Component {
           verticalAlign: "baseline",
           fontSize: 22,
           color: "#000000",
-          backgroundColor: "#ffffff",
+          backgroundColor: "#f2d9d9",
           fontFamily: "Roboto-Bold",
           borderColor: "#000000",
           borderStyle: "solid",
@@ -125,42 +129,6 @@ export class _Blank extends React.Component {
         }}
       >
         Lord Jesus Christ, Son of the Living God, have mercy on me, a sinner.
-      </Text>
-      <Text
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          fontSize: 9,
-          color: "#000000",
-          backgroundColor: "#ffffff",
-          fontFamily: "Roboto-Bold",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0,
-          textDecorationLine: "none",
-          textTransform: "none",
-          lineHeight: 16,
-          letterSpacing: 1
-        }}
-      >
-        Note: The Jesus Prayer can be prayed a variety of ways. Whichever way
-        works for you, at least include &quot;Lord Jesus Christ, have mercy on
-        me.&quot; It is the quality, not the quantity, that is important in
-        prayer.
       </Text>
       <Image
         resizeMode="cover"
@@ -192,7 +160,43 @@ export class _Blank extends React.Component {
           borderRadius: 0
         }}
       />
-    </View>
+      <Text
+        style={{
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 9,
+          color: "#000000",
+          backgroundColor: "#f2d9d9",
+          fontFamily: "Roboto-Bold",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          textDecorationLine: "none",
+          textTransform: "none",
+          lineHeight: 16,
+          letterSpacing: 1
+        }}
+      >
+        Note: The Jesus Prayer can be prayed a variety of ways. Whichever way
+        works for you, at least include &quot;Lord Jesus Christ, have mercy on
+        me.&quot; It is the quality, not the quantity, that is important in
+        prayer.
+      </Text>
+    </ImageBackground>
   )
 }
 

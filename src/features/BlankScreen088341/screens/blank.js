@@ -196,6 +196,40 @@ export class _Blank extends React.Component {
         me.&quot; It is the quality, not the quantity, that is important in
         prayer.
       </Text>
+      <Button
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "center",
+          verticalAlign: "baseline",
+          fontSize: 21,
+          color: "#000000",
+          backgroundColor: "#f2d9d9",
+          fontFamily: "RobotoMono-BoldItalic",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 1,
+          borderBottomWidth: 0,
+          borderRadius: 0,
+          textDecorationLine: "none",
+          textTransform: "uppercase",
+          lineHeight: 12,
+          letterSpacing: 0
+        }}
+        onPress={() => alert("Pressed!")}
+      >
+        Home
+      </Button>
     </ImageBackground>
   )
 }
